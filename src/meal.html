@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEAL PAGE</title>
+    <link rel="stylesheet" href="meal.css" />
+</head>
+<body>
+  <div class="navbar1">
+    <ul>
+        <li><a href ="index.html">HOME</a></li>
+        <li><a href ="place.html">PLACE</a></li>
+        <li><a href ="about.html">INFORMATION</a></li>
+    </ul>
+    </div>
+  <h2>SUGGESTION MEALS</h2>
+    <form id="search-form">
+        <label for="meal-select">Select a meal here :</label>
+        <select id="meal-select" name="meal-select">
+          <option value="">--Select a meal--</option>
+          <option value="Vegan Lasagna">Vegan Lasagna</option>
+          <option value="Spaghetti Bolognese">Spaghetti Bolognese</option>
+          <option value="Spicy Arrabiata Penne">Spicy Arrabiata Penne</option>
+          <option value="Mediterranean Pasta Salad">Mediterranean Pasta Salad</option>
+          <option value="Spaghetti alla Carbonara">Spaghetti alla Carbonara</option>       
+          <!-- Add more options here -->
+        </select>
+        <button id="button" type="submit">Search</button>
+      </form>
+      <div class="container">
+      <div id="meal-details"></div>
+      <div id="ingredient-list"></div>
+      </div>
+      <script src="meal.js"></script>
+    
+</body>
+</html>
+
+
